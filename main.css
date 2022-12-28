@@ -1,0 +1,39 @@
+body{
+    background-color: darkgray;
+}
+main{
+    font-family: monospace;
+    display: inline-block;
+    width: 700px;
+    margin-left: calc(50% - 350px);
+    margin-top: 222px;
+    background-color: #fff;
+    color: #1F4D14;
+}
+header{
+    display: inline-block;
+    width: 100%;
+}
+button{
+    float: right;
+    color: #B4B4B4;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    border: none;
+}
+img{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 200px;
+}
+h1{
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 1em;
+    margin:0;
+}
+p{
+    font-size: 16px;
+}
