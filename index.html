@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maze 404</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
@@ -16,16 +17,14 @@
     <link rel="shortcut icon" href="./Favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <header>
-            <button>X</button>
-        </header>
-        <img src="./maze.png" alt="Maze image">
-        <div>
-            <h1>404</h1>
-            <p>Looks like you're in a maze.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur aolorum, neque!</p>
-            <a href="#">Go back <span> home</span></a>
+    <main class="container">
+        <button class="exit fa fa-close"></button>
+        <img class="left-column" src="./maze.png" alt="Maze image">
+        <div class="right-column">
+            <h1 class="title">404</h1>
+            <p class="title-desciption">Looks like you're in a maze.</p>
+            <p class="desciption">Lorem, ipsum dolor sit amet consectetur aolorum, neque!</p>
+            <a class="button" href="#">Go back Home</a>
         </div>
     </main>
 </body>

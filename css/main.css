@@ -1,7 +1,15 @@
+body,
+body * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
 body{
     background-color: darkgray;
 }
-main{
+
+.container{
     font-family: monospace;
     display: inline-block;
     width: 700px;
@@ -9,47 +17,60 @@ main{
     margin-top: 222px;
     background-color: #fff;
     color: #1F4D14;
+    position: relative;
+    height: 460px;
 }
-header{
-    display: inline-block;
-    width: 100%;
-}
-button{
-    float: right;
+
+.exit{
+    position: absolute;
     color: #B4B4B4;
-    margin-top: 10px;
-    margin-right: 20px;
+    top: 10px;
+    right: 20px;
     font-size: 20px;
+    height: 1.5em;
+    width: 1.5em;
     border: none;
 }
-img{
+
+.exit:hover{
+    color: #000;
+    background-color: red;
+}
+
+.left-column{
     float: left;
     margin-left: 100px;
-    margin-top: 30px;
-    width: 200px;
+    margin-top: 80px;
+    width: 156px;
 }
-div{
+
+.right-column{
     float: left;
     margin-left: 100px;
     width: 250px;
     margin-top: 50px;
 }
-h1{
+
+.title{
     font-weight: bold;
     font-size: 150px;
     line-height: 1em;
-    margin:0;
+    margin-top: 50px;
 }
-p{
+
+.title-desciption,
+.desciption{
     font-size: 16px;
-}
-p:first-of-type{
+    margin-top: 1em;
     font-weight: bold;
 }
-p:last-of-type{
+
+.desciption{
+    font-weight: normal;
     color: #B4B4B4;
 }
-a{
+
+.button{
     display: inline-block;
     background-color: #61AE4F;
     text-decoration: none;
@@ -57,9 +78,8 @@ a{
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 10px;
-    margin-bottom: 65px;
+    margin-top: 40px;
 }
-span{
-    text-transform: capitalize;
-}
+
+.button:hover{
+    box-shadow: 2px 2px 4px 0 #B8DAB0;}
